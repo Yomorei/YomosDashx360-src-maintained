@@ -1,4 +1,4 @@
-# Xbox 360 Metro Dashboard for Windows
+# DashX360 an Xbox 360 Metro Dashboard for Windows
 
 A custom Xbox 360-style dashboard experience for Windows with controller support, working menus, and an in-game Guide overlay.
 
