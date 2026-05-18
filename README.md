@@ -1,6 +1,6 @@
 # DashX360, an Xbox 360 Metro Dashboard for Windows
 
-A custom Xbox 360-style dashboard experience for Windows with controller support, working menus, and an in-game Guide overlay.
+A custom recreation of the Xbox 360 dashboard experience for Windows with controller support, working menus, and an in-game Guide overlay.
 
 If you like my work, feel free to donate to my ko-fi! however money will never be needed to use this!
 https://Ko-fi.com/zivvoz
