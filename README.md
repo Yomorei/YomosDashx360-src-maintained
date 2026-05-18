@@ -35,7 +35,7 @@ https://Ko-fi.com/zivvoz
 DashX360 is open for people who want to help improve it.
 If you use this project, modify it, or build on top of it, please credit the original project and creator:
 
-**Original project by Zivvoz / DashX360**
+**Original project by zivvoz / DashX360**
 
 Do not reupload or redistribute modified versions in a way that makes it look like you created the original project from scratch.
 
