@@ -13,7 +13,7 @@ https://Ko-fi.com/zivvoz
 4. Use the Back + Start buttons together (or Win + Left Shift + Left Ctrl) to open the Guide.
 5. Navigate with the controller just like the original Xbox 360 dashboard.
 
-6. ## Version 1.1 New Features
+## Version 1.1 New Features
 
 - Custom theme support, and the Bing Penguins are Back!
 - Library Scan for Steam, and uses coverart steam provides
