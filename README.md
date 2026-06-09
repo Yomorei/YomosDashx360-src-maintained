@@ -1,13 +1,13 @@
-﻿# DashX360 Recovered Source
+﻿# DashX360 Decompiled Source By Yomorei
 
 Recovered, buildable source reconstruction of DashX360 / Xbox Metro Launcher based on the DashX360 V1.1 release assembly.
 
-## Status
+## Status?? 
 
-- Tested, Builds successfully.
-- Tested, Launches successfully.
+- Tested - Builds successfully.
+- Tested - Launches successfully.
 - Runtime target: .NET 8 Windows / WPF.
-- Recovery state: decompiled/recovered source, **not original clean source** since the OG Creator is a weird person.
+- Note: decompiled/recovered source, **not original clean source** since the OG Creator is a weird person.
 - Current UI resources are recovered `.baml` resources. I would suggest not deleting them unless they are replaced with reconstructed `.xaml` files.
 
 ## Attribution / Notice
