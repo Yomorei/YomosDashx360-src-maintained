@@ -20,3 +20,27 @@ New modifications made in this repository are licensed under GPL-3.0-or-later un
 
 Third-party dependencies, bundled media, images, icons, sounds, videos, fonts, and other assets remain under their original licenses or ownership. 
 
+## Build
+
+Run from the repository root:
+
+```powershell
+dotnet restore
+dotnet build -c Release
+```
+
+## Publish
+
+This publishes a local framework-dependent Windows x64 build into `artifacts/publish`.
+
+```powershell
+dotnet publish -c Release -r win-x64 --self-contained false -o ".\artifacts\publish"
+Copy-Item -Recurse -Force ".\Assets" ".\artifacts\publish\Assets"
+Copy-Item -Recurse -Force ".\UserData" ".\artifacts\publish\UserData"
+```
+
+## Run published build
+
+```powershell
+Start-Process ".\artifacts\publish\XboxMetroLauncher.exe"
+```
