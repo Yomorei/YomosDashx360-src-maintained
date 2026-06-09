@@ -1,0 +1,77 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>XboxMetroLauncher</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>annotations</Nullable>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="views\tabs\musictabview.baml" />
+    <None Remove="themes\metrotheme.baml" />
+    <None Remove="views\tabs\mediatabview.baml" />
+    <None Remove="views\tabs\appstabview.baml" />
+    <None Remove="views\tabs\bingtabview.baml" />
+    <None Remove="views\tabs\socialtabview.baml" />
+    <None Remove="views\tabs\settingstabview.baml" />
+    <None Remove="controls\metrotile.baml" />
+    <None Remove="views\guidewindow.baml" />
+    <None Remove="mainwindow.baml" />
+    <None Remove="views\tabs\gamestabview.baml" />
+    <None Remove="app.baml" />
+    <None Remove="views\tabs\hometabview.baml" />
+    <EmbeddedResource Include="views\tabs\musictabview.baml" LogicalName="views/tabs/musictabview.baml" />
+    <EmbeddedResource Include="themes\metrotheme.baml" LogicalName="themes/metrotheme.baml" />
+    <EmbeddedResource Include="views\tabs\mediatabview.baml" LogicalName="views/tabs/mediatabview.baml" />
+    <EmbeddedResource Include="views\tabs\appstabview.baml" LogicalName="views/tabs/appstabview.baml" />
+    <EmbeddedResource Include="views\tabs\bingtabview.baml" LogicalName="views/tabs/bingtabview.baml" />
+    <EmbeddedResource Include="views\tabs\socialtabview.baml" LogicalName="views/tabs/socialtabview.baml" />
+    <EmbeddedResource Include="views\tabs\settingstabview.baml" LogicalName="views/tabs/settingstabview.baml" />
+    <EmbeddedResource Include="controls\metrotile.baml" LogicalName="controls/metrotile.baml" />
+    <EmbeddedResource Include="views\guidewindow.baml" LogicalName="views/guidewindow.baml" />
+    <EmbeddedResource Include="mainwindow.baml" LogicalName="mainwindow.baml" />
+    <EmbeddedResource Include="views\tabs\gamestabview.baml" LogicalName="views/tabs/gamestabview.baml" />
+    <EmbeddedResource Include="app.baml" LogicalName="app.baml" />
+    <EmbeddedResource Include="views\tabs\hometabview.baml" LogicalName="views/tabs/hometabview.baml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="SharpDX.DirectInput">
+      <HintPath>..\DashX360 V1.1\SharpDX.DirectInput.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX">
+      <HintPath>..\DashX360 V1.1\SharpDX.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="app.baml" />
+    <Resource Include="controls\metrotile.baml" />
+    <Resource Include="mainwindow.baml" />
+    <Resource Include="themes\metrotheme.baml" />
+    <Resource Include="views\guidewindow.baml" />
+    <Resource Include="views\tabs\appstabview.baml" />
+    <Resource Include="views\tabs\bingtabview.baml" />
+    <Resource Include="views\tabs\gamestabview.baml" />
+    <Resource Include="views\tabs\hometabview.baml" />
+    <Resource Include="views\tabs\mediatabview.baml" />
+    <Resource Include="views\tabs\musictabview.baml" />
+    <Resource Include="views\tabs\settingstabview.baml" />
+    <Resource Include="views\tabs\socialtabview.baml" />
+  </ItemGroup>
+</Project>
+
+
+
+
+
+
