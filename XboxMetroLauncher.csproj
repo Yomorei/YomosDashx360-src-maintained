@@ -45,14 +45,7 @@
     <EmbeddedResource Include="app.baml" LogicalName="app.baml" />
     <EmbeddedResource Include="views\tabs\hometabview.baml" LogicalName="views/tabs/hometabview.baml" />
   </ItemGroup>
-  <ItemGroup>
-    <Reference Include="SharpDX.DirectInput">
-      <HintPath>..\DashX360 V1.1\SharpDX.DirectInput.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpDX">
-      <HintPath>..\DashX360 V1.1\SharpDX.dll</HintPath>
-    </Reference>
-  </ItemGroup>
+  <ItemGroup></ItemGroup>
   <ItemGroup>
     <Resource Include="app.baml" />
     <Resource Include="controls\metrotile.baml" />
@@ -68,7 +61,18 @@
     <Resource Include="views\tabs\settingstabview.baml" />
     <Resource Include="views\tabs\socialtabview.baml" />
   </ItemGroup>
+  <ItemGroup>
+    <Reference Include="SharpDX">
+      <HintPath>third_party\SharpDX\SharpDX.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="SharpDX.DirectInput">
+      <HintPath>third_party\SharpDX\SharpDX.DirectInput.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
 </Project>
+
 
 
 

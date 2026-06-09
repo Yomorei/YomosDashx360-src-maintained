@@ -1,9 +1,14 @@
 ﻿bin/
 obj/
 .vs/
+artifacts/
 *.user
 *.suo
 *.log
 build-errors.txt
 Logs/
 *.bak-*
+*.tmp
+*.dmp
+*.pdb
+*.cache
